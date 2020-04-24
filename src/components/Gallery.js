@@ -14,7 +14,8 @@ const Gallery = ({ images }) => {
           <h2>{obj.caption}</h2>
           </a>
           <p style={{fontSize:18}}>{obj.description}</p>
-          <p style={{fontSize:18}}>Tech: {obj.tech}</p>
+          <p style={{ fontSize: 18 }}><span className="sub">Tech:</span> {obj.tech}</p>
+          <a style={{ fontSize: 22 }} href={obj.github} target="noopener">Github</a>
         </article>
       )
     })

@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "my-portfolio",
   "description": "My portfolio",
   "version": "1.0.0",
   "author": "Solomon Egwuonwu",
@@ -31,6 +31,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/segwuonwu/my-portfolio"
   }
 }

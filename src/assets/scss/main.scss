@@ -66,8 +66,8 @@
 
 	a {
 		@include vendor('transition', ('color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
-		border-bottom: dotted 1px;
-		color: _palette(accent1, bg);
+		// border-bottom: dotted 1px;
+		color: #337ab7;
 		text-decoration: none;
 
 		&:hover {
@@ -198,6 +198,11 @@
 
 	.align-right {
 		text-align: right;
+	}
+
+	.sub {
+		font-size: 1.2em;
+		font-weight: bolder;
 	}
 
 /* Section/Article */
@@ -915,7 +920,7 @@
 		left: 0;
 		padding: ($size-header-pad * 2) $size-header-pad;
 		position: fixed;
-		text-align: right;
+		text-align: left;
 		top: 0;
 		width: $size-header-width;
 
@@ -942,7 +947,7 @@
 			font-size: 1.45em;
 			line-height: 1.75em;
 			margin: 0;
-			padding-top: 5em;
+			padding-top: 6em;
 		}
 
 		.image.avatar {

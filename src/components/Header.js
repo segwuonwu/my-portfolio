@@ -6,9 +6,7 @@ const Header = () => (
   <header id="header">
     <div className="inner">
       <h1>
-        <strong>I am Solomon Egwuonwu</strong>, a full-stack
-        <br />
-        web developer who loves to create things
+        <strong>I am Solomon Egwuonwu</strong>, a Seattle based full-stack web developer who loves to create.
       </h1>
     </div>
     <Footer />

@@ -12,8 +12,9 @@ const DEFAULT_IMAGES = [
     source: "https://givebackvolunteer.herokuapp.com/",
     thumbnail: thumb01,
     caption: 'GiveBack',
-    description: 'Web application focused on helping organizations and volunteers organize events',
-    tech: 'MongoDB, Mongoose, Express, React, Node, Material UI, SaSS, React Big Calendar'
+    description: 'Web application focused on helping organizations and volunteers organize events.',
+    tech: 'MongoDB, Mongoose, Express, React, Node, Material UI, SaSS, React Big Calendar',
+    github: 'https://github.com/segwuonwu/GA-Team-4'
   },
   {
     id: '2',
@@ -21,7 +22,8 @@ const DEFAULT_IMAGES = [
     thumbnail: thumb02,
     caption: 'Fitness Planner',
     description: 'Web application focused on helping users plan out their workout exercises.',
-    tech: 'Flask, oAuth (in Python), HTML, CSS, Bootstrap, postgress'
+    tech: 'Flask, oAuth (in Python), HTML, CSS, Bootstrap, postgress',
+    github: 'https://github.com/segwuonwu/UltimateFitnessTracker'
   },
   {
     id: '3',
@@ -29,7 +31,8 @@ const DEFAULT_IMAGES = [
     thumbnail: thumb03,
     caption: 'Break Breaker',
     description: 'Web application Break Breaker game.',
-    tech: 'Javascript, HTML, CSS, Canvas'
+    tech: 'Javascript, HTML, CSS, Canvas',
+    github: 'https://github.com/segwuonwu/SEI-29-Project_1'
   },
 ]
 
@@ -63,12 +66,13 @@ const HomeIndex = () => {
         
           <Gallery
             images={DEFAULT_IMAGES.map(
-              ({ id, source, thumbnail, caption, description, tech }) => ({
+              ({ id, source, thumbnail, caption, description, tech, github }) => ({
                 source,
                 thumbnail,
                 caption,
                 description,
                 tech,
+                github,
               })
             )}
           />
@@ -76,24 +80,24 @@ const HomeIndex = () => {
 
         <section id="three">
           <h2>Hard Skills</h2>
-          <div class="row">
-            <div class="3u 6u$(small)">
-              <div class="labeled-icons">
+          <div className="row">
+            <div className="3u 6u$(small)">
+              <div className="labeled-icons">
                 JavaScript<br/>Python<br/>Java<br/>React<br/>Node.js<br/>Gatsby.js<br/>Express
               </div>
             </div>
-            <div class="3u 6u$(small)">
-                <div class="labeled-icons">
+            <div className="3u 6u$(small)">
+                <div className="labeled-icons">
                     CSS<br/>HTML<br/>EJS<br/>ES6<br/>JSX<br/>Git<br/>
                 </div>
             </div>
-            <div class="3u 6u$(small)">
-                <div class="labeled-icons">
+            <div className="3u 6u$(small)">
+                <div className="labeled-icons">
                     API<br/>Axios<br/>Fetch<br/>Bootstrap<br/>Materialize<br/>Heroku<br/>
                 </div>
             </div>
-            <div class="3u 6u$(small)">
-                <div class="labeled-icons">
+            <div className="3u 6u$(small)">
+                <div className="labeled-icons">
                     SQL<br/>PostgreSQL<br/>Sequelize<br/>MongoDB<br/>Mongoose<br/>Flask<br/>
                 </div>
             </div>
