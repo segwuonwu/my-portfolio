@@ -1,2 +1,2 @@
-[Live view](https://segwuonwu.netlify.app/)
+[Live view](https://www.mycodegym.com/)
 - Run `gatsby develop` in the terminal to start.
