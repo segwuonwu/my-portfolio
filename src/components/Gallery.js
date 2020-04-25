@@ -11,7 +11,7 @@ const Gallery = ({ images }) => {
         <article className="6u 12u$(xsmall) work-item" key={i}>
           <a className="image fit thumb" href={obj.source} target="noopener">
             <img style={{height: 237.77}} src={obj.thumbnail} alt=""/>
-          <h2>{obj.caption}</h2>
+            <h2>{obj.caption}</h2>
           </a>
           <p style={{fontSize:18}}>{obj.description}</p>
           <p style={{ fontSize: 18 }}><span className="sub">Tech:</span> {obj.tech}</p>
