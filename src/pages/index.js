@@ -14,7 +14,7 @@ const DEFAULT_IMAGES = [
     caption: 'GiveBack',
     description: 'Web application focused on helping organizations and volunteers organize events.',
     tech: 'MongoDB, Mongoose, Express, React, Node, Material UI, SaSS, React Big Calendar',
-    github: 'https://github.com/segwuonwu/GA-Team-4'
+    github: 'https://github.com/segwuonwu/GiveBack'
   },
   {
     id: '2',
@@ -27,12 +27,12 @@ const DEFAULT_IMAGES = [
   },
   {
     id: '3',
-    source: "https://segwuonwu.github.io/SEI-29-Project_1/",
+    source: "https://segwuonwu.github.io/Brick-Breaker/",
     thumbnail: thumb03,
-    caption: 'Break Breaker',
+    caption: 'Brick Breaker',
     description: 'Web application Break Breaker game.',
     tech: 'Javascript, HTML, CSS, Canvas',
-    github: 'https://github.com/segwuonwu/SEI-29-Project_1'
+    github: 'https://github.com/segwuonwu/Brick-Breaker'
   },
 ]
 

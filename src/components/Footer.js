@@ -26,7 +26,7 @@ const Footer = () => (
         </li>
       </ul>
       <ul className="copyright">
-        <li>&copy;2020 Created with <span role="img" aria-labelledby="hart">❤️</span>by Solomon Egwuonwu</li>
+        <li>&copy;2020 Created by Solomon Egwuonwu</li>
       </ul>
     </div>
   </div>
