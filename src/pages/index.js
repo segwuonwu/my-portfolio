@@ -5,6 +5,7 @@ import thumb02 from '../assets/images/thumbs/fitness.png'
 import thumb03 from '../assets/images/thumbs/gameview.png'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
+import resume from '../assets/Resume.pdf'
 
 const DEFAULT_IMAGES = [
   {
@@ -142,8 +143,10 @@ const HomeIndex = () => {
               <ul className="labeled-icons">
                 <li>
                   <h1>
-                    <a href="https://drive.google.com/file/d/1Ww33-xG1AxQZRpAPMcJ5VTcehpcXu-ld/view?usp=sharing"  target="noopener" className="icon fa-file">
-                      <span className="label">Resume</span></a>
+                    <p>
+                      <a href={resume}  target="noopener" className="icon fa-file">
+                        <span className="label">Resume</span></a>
+                      </p>
                   </h1>
                 </li>
               </ul>
