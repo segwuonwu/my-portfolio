@@ -3,6 +3,7 @@ import Helmet from 'react-helmet'
 import thumb01 from '../assets/images/thumbs/giveback.png'
 import thumb02 from '../assets/images/thumbs/fitness.png'
 import thumb03 from '../assets/images/thumbs/gameview.png'
+import Resume from '../assets/Resume.pdf'
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
@@ -113,7 +114,7 @@ const HomeIndex = () => {
               <ul className="labeled-icons">
                 <li>
                   <h1>
-                    <a href="https://linkedin.com/in/solomonegwuonwu" target="noopener"  className="icon fa-linkedin"><span className="label">Linked In</span></a>
+                    <a href="https://linkedin.com/in/solomonegwuonwu" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label">Linked In</span></a>
                   </h1>
                 </li>
               </ul>
@@ -122,7 +123,7 @@ const HomeIndex = () => {
               <ul className="labeled-icons">
                 <li>
                   <h1>
-                    <a  href="https://github.com/segwuonwu" target="noopener"  className="icon fa-github"><span className="label">Github</span>
+                    <a  href="https://github.com/segwuonwu" target="_blank" rel="noopener noreferrer" className="icon fa-github"><span className="label">Github</span>
                     </a>
                   </h1>
                 </li>
@@ -132,7 +133,7 @@ const HomeIndex = () => {
               <ul className="labeled-icons">
                 <li>
                   <h1>
-                    <a href="mailto:segwuonwu@gmail.com" target="noopener"  className="icon fa-envelope-o"><span className="label">Email</span>
+                    <a href="mailto:segwuonwu@gmail.com" target="_blank" rel="noopener noreferrer" className="icon fa-envelope-o"><span className="label">Email</span>
                     </a>
                   </h1>
                 </li>
@@ -142,7 +143,7 @@ const HomeIndex = () => {
               <ul className="labeled-icons">
                 <li>
                   <h1>
-                      <a href="https://drive.google.com/open?id=1ara-WEJ_aLA9v7VdS4jN1TZji6jGM5Dv"  target="noopener" className="icon fa-file">
+                      <a href={Resume} target="_blank" rel="noopener noreferrer" className="icon fa-file">
                         <span className="label">Resume</span></a>
                   </h1>
                 </li>
