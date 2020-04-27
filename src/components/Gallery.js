@@ -9,13 +9,13 @@ const Gallery = ({ images }) => {
     const gallery = images.map((obj, i) => {
       return (
         <article className="6u 12u$(xsmall) work-item" key={i}>
-          <a className="image fit thumb" href={obj.source} target="noopener">
+          <a className="image fit thumb" href={obj.source} target="_blank" rel="noopener noreferrer">
             <img style={{height: 237.77}} src={obj.thumbnail} alt=""/>
             <h2>{obj.caption}</h2>
           </a>
           <p style={{fontSize:18}}>{obj.description}</p>
           <p style={{ fontSize: 18 }}><span className="sub">Tech:</span> {obj.tech}</p>
-          <a style={{ fontSize: 22 }} href={obj.github} target="noopener">Github</a>
+          <a style={{ fontSize: 22 }} href={obj.github} target="_blank" rel="noopener noreferrer">Github</a>
         </article>
       )
     })
