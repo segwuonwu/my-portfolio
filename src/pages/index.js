@@ -56,13 +56,13 @@ const HomeIndex = () => {
             </h2>
           </header>
           <p>
-          I'm a recent graduate with a passion for learning and problem-solving which drives my interest in web development. My adaptability, perseverance and problem-solving methods have been developed from years of working with individuals with disabilities. I translate these valuable skills to my work environment, which allows me to offer unique and creative approaches to any project or challenge.
+          I'm a recent college graduate and a software engineer with experience in HTML, CSS, JavaScript, and Java. My passion for learning and problem-solving drives my interest in web development. My adaptability and perseverance have been developed from years of working with individuals with disabilities. I translate these valuable skills to my work environment, which allows me to offer unique and creative approaches to any project or challenge.
           </p>
         </section>
 
         <section id="two">
           <h2>
-            Recent Project <small>(click for live view)</small> 
+            Recent Projects <small>(click for live view)</small> 
           </h2>
         
           <Gallery
