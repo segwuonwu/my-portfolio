@@ -114,7 +114,7 @@ const HomeIndex = () => {
               <ul className="labeled-icons">
                 <li>
                   <h1>
-                    <a href="https://linkedin.com/in/solomonegwuonwu" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label">Linked In</span></a>
+                    <a href="https://linkedin.com/in/solomonegwuonwu" target="_blank" rel="noopener noreferrer" className="icon fa-linkedin"><span className="label icon">Linked In</span></a>
                   </h1>
                 </li>
               </ul>
